@@ -20,7 +20,7 @@
 
 .header-corusel {
     display: flex;
-    justify-content: center;
+
     height: 80%;
     align-items: center;
 }
@@ -31,14 +31,17 @@
 }
 
 .header-corusel-vh-img {
-    width: 100% !important;
-    height: 20rem !important;
+    width: 40% !important;
+    height: 18rem !important;
 }
 
 .carousel-item img {
     align-items: center;
     text-align: center;
     justify-content: center;
-    border-radius: 50rem;
-
+    border-bottom-right-radius: 50rem;
+    border-top-right-radius: 50rem;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
 }
