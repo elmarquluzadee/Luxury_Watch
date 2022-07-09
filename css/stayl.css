@@ -13,3 +13,32 @@
     height: 100vh;
 
 }
+
+.bg-black {
+    background-color: #3F4E4F !important;
+}
+
+.header-corusel {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    align-items: center;
+}
+
+.header-corusel-vh {
+    width: 85rem;
+    height: 300px;
+}
+
+.header-corusel-vh-img {
+    width: 100% !important;
+    height: 20rem !important;
+}
+
+.carousel-item img {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50rem;
+
+}
