@@ -18,6 +18,10 @@
     background-color: #3F4E4F !important;
 }
 
+.bg-col-1 {
+    background-color: rgb(224, 229, 235) !important;
+}
+
 .header-corusel {
     display: flex;
 
@@ -26,7 +30,7 @@
 }
 
 .header-corusel-vh {
-    width: 85rem;
+    width: 80rem;
     height: 300px;
 }
 
@@ -44,4 +48,13 @@
     border-bottom: 3px solid white;
     border-top: 3px solid white;
     border-right: 3px solid white;
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+}
+
+main {
+    border-top: 1px solid red !important;
 }
