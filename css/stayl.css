@@ -52,7 +52,7 @@
 
 .card img {
     width: 100%;
-    height: 400px;
+    height: 350px;
 }
 
 main {
@@ -74,7 +74,7 @@ footer i {
 }
 
 footer i:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 4, 255);
     font-size: 2rem;
 
 
@@ -88,3 +88,9 @@ footer .text-dark:hover {
     color: blue !important;
     border-bottom: 1.2px solid rgba(0, 0, 0, 0.459);
 }
+
+footer span {
+    color: rgba(0, 0, 0, 0.658);
+}
+
+@media (min-width: 768px) {}
