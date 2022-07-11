@@ -7,6 +7,10 @@
 
 }
 
+.bg-black-t {
+    background-color: #00000098;
+}
+
 .header-img {
     background: url(../img/m226659-0002_1901ac_009_1_header9487.jpg) no-repeat center/cover;
     width: 100%;
@@ -93,4 +97,35 @@ footer span {
     color: rgba(0, 0, 0, 0.658);
 }
 
-@media (min-width: 768px) {}
+@media (max-width: 992px) {
+    .bg-dark {
+        background-color: #000000 !important;
+
+    }
+
+    main img {
+        height: 250px !important;
+    }
+
+    main .row {
+        padding: 0rem !important;
+        margin-top: 2rem !important;
+    }
+
+    .header-res {
+        display: none !important;
+    }
+
+
+
+    .footer-res {
+        display: block !important;
+
+    }
+}
+
+@media (max-width:1200px) {
+    .header-corusel {
+        display: none;
+    }
+}
