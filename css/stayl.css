@@ -129,3 +129,23 @@ footer span {
         display: none;
     }
 }
+
+/* main a */
+.main-a-card img {
+    height: 200px;
+
+}
+
+.main-a-card {
+    padding: 2rem;
+}
+
+.main-border-line {
+    display: flex;
+}
+
+.border-line {
+    border-bottom: 3px solid red;
+    width: 10rem;
+    justify-content: center;
+}
