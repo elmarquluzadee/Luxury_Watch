@@ -145,7 +145,7 @@ footer span {
 }
 
 .border-line {
-    margin-top: 3rem;
+    margin-top: 1rem;
     border-bottom: 3px solid red;
     width: 10rem;
     justify-content: center;
