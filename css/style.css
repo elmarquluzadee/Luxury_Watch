@@ -112,13 +112,13 @@ footer span {
         margin-top: 2rem !important;
     }
 
-    .header-res {
+    .header-responsive {
         display: none !important;
     }
 
 
 
-    .footer-res {
+    .footer-responsive {
         display: block !important;
 
     }
